@@ -1,0 +1,9 @@
+{
+  "name": "glbitm-attendance",
+  "private": true,
+  "scripts": {
+    "build": "npm install --prefix frontend --include=dev && npm run build --prefix frontend && npm install --prefix backend",
+    "start": "node backend/src/index.js"
+  },
+  "engines": { "node": ">=18" }
+}

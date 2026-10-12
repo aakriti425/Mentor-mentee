@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { margin: 0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+* { box-sizing: border-box; }
+.dashboard-campus-banner{height:120px;background-image:linear-gradient(rgba(255,255,255,.42),rgba(255,255,255,.9)),url("https://www.glbitm.org/Uploads/Image/glbajaj-campus-infra25-3.webp");background-size:cover;background-position:center 35%;background-repeat:no-repeat;border-bottom:1px solid rgba(15,23,42,.08);}
+@media (max-width:640px){.dashboard-campus-banner{height:88px;}}
+.login-page{position:relative;min-height:100vh;overflow:hidden;background:#0f172a}.login-campus-image{position:absolute;inset:0;background-image:url("https://www.glbitm.org/Uploads/Image/glbajaj-campus-infra25-3.webp");background-size:cover;background-position:center}.login-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,6,23,.78),rgba(2,6,23,.38) 48%,rgba(2,6,23,.65))}.login-quote-panel{animation:loginFade .7s ease}.login-page section:last-child{animation:loginCard .65s ease}@keyframes loginFade{from{opacity:0;transform:translateX(-20px)}to{opacity:1;transform:none}}@keyframes loginCard{from{opacity:0;transform:translateX(20px) scale(.98)}to{opacity:1;transform:none}}
